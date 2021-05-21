@@ -1,4 +1,4 @@
-export default function breed(state = "Corgie", action) {
+export default function breed(state = "Havanese", action) {
     switch (action.type) {
       case "CHANGE_BREED":
         return action.payload;
